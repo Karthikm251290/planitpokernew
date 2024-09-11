@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "235325238399",
+    "project_id": "planitpoker-ab425",
+    "storage_bucket": "planitpoker-ab425.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235325238399:android:6d70b95da91e0fc230e34a",
+        "android_client_info": {
+          "package_name": "com.example.flutterwebapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2BVCpCiLM_uKOwzIdzFZBu8QA0ph9g_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235325238399:android:42d78edea0b4eaef30e34a",
+        "android_client_info": {
+          "package_name": "com.example.myflutterapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2BVCpCiLM_uKOwzIdzFZBu8QA0ph9g_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

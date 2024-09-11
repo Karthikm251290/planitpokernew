@@ -1,0 +1,47 @@
+name: planitpoker
+description: A Flutter PlanItPoker-style app for story pointing using Firebase and real-time voting.
+
+version: 1.0.0+1
+
+# The environment defines the Dart SDK constraints
+environment:
+  sdk: ">=2.18.0 <3.0.0"  # Ensure you're using a compatible Dart SDK
+
+# Dependencies for the project
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase core for initializing Firebase in the project
+  firebase_core: ^3.4.1
+
+  # Firebase authentication for user login and sign-up
+  firebase_auth: ^5.2.1
+
+  # Firebase Firestore for real-time database and storage of rooms, votes, users, etc.
+  cloud_firestore: ^5.4.1
+
+  firebase_core_web: ^2.18.0
+
+  firebase_auth_web: ^5.13.0
+
+  # Provider for state management (optional but useful)
+  provider: ^6.0.0
+
+  # Any other dependencies you might want (for example, animations, HTTP requests, etc.)
+
+# Dev dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# Enables the "uses-material-design" flag to use material icons in your app
+flutter:
+  uses-material-design: true
+
+  # Assets declaration (uncomment this section if you have images or other assets to include)
+  assets:
+    - assets/      # This assumes you have an `assets/` folder. Ensure it exists in your project root.
+    # Example usage:
+    # - assets/images/logo.png   # You can also list specific files
+    # - assets/fonts/            # If you're using fonts, place them here

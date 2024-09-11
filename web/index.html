@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PlanIt Poker</title>
+
+    <!-- Add the Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase with your project's configuration -->
+    <script>
+      // Firebase configuration for PlanIt Poker
+      const firebaseConfig = {
+        apiKey: "AIzaSyBYIrF7NqQTFkR-SXnvU-AJ2P2-_InW3Dg",
+        authDomain: "planitpoker-ab425.firebaseapp.com",
+        projectId: "planitpoker-ab425",
+        storageBucket: "planitpoker-ab425.appspot.com",
+        messagingSenderId: "235325238399",
+        appId: "1:235325238399:web:90944e516064ec7330e34a",
+        measurementId: "G-3WF4JGP93P"
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+  </head>
+  <body>
+    <!-- Your app’s entry point -->
+    <script src="main.dart.js" type="application/javascript"></script>
+  </body>
+</html>
